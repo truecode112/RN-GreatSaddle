@@ -6,7 +6,6 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios --udid='2509D4C7-3128-4616-BE51-F96A93AB61C7'",
     "start": "react-native start",
-    "test": "jest",
     "lint": "eslint ."
   },
   "dependencies": {
