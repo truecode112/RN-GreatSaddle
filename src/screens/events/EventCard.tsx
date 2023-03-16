@@ -83,19 +83,7 @@ const EventCardNM = (props: any) => {
                 </View>
                 <View style={Styles.contentInnerCon}>
                     <View style={{ ...Styles.contentInnerConOneInnerCon, width: wp(64), paddingHorizontal: wp(2.5) }}>
-                        {
-                            item.liveNow ? (
-                                <View style={Styles.liveCon}>
-                                    <View style={Styles.liveIcon} />
-                                    <Text style={Styles.liveNowTxt}>Live Now</Text>
-                                </View>
-                            ) : (
-                                <View style={Styles.endCon}>
-                                    <View style={Styles.endIcon} />
-                                    <Text style={Styles.endNowTxt}>End</Text>
-                                </View>
-                            )
-                        }
+                        
                         <View style={Styles.liveCon}>
                             <FastImage
                                 source={Images.users}

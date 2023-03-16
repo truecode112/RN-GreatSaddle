@@ -1,4 +1,4 @@
-package com.greatsaddle;
+package com.greatsaddle.goodmealtime;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;

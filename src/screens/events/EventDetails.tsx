@@ -195,19 +195,6 @@ const EventDetails = (props: any) => {
                             <Text style={Styles.price}>{parseFloat(event.price) > 0 ? event.price : "free"}</Text>
                             <Text style={Styles.discount}>{event.discount}</Text>
                         </View>
-                        {
-                            event.liveNow ? (
-                                <View style={Styles.priceView}>
-                                    <View style={Styles.liveIcon} />
-                                    <Text style={Styles.liveNow}>Live Now</Text>
-                                </View>
-                            ) : (
-                                <View style={Styles.priceView}>
-                                    <View style={Styles.endIcon} />
-                                    <Text style={Styles.endNow}>End</Text>
-                                </View>
-                            )
-                        }
                     </View>
                 </View>
                 <View style={Styles.contentOuterView}>

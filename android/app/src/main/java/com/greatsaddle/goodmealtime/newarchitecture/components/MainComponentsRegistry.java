@@ -1,4 +1,4 @@
-package com.greatsaddle.newarchitecture.components;
+package com.greatsaddle.goodmealtime.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;
