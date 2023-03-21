@@ -7,7 +7,7 @@ import {
     EventBooking, EventBookingCard,
     Events
 } from '../screens'
-import AuthNavigator from './AuthNavigator';
+// import AuthNavigator from './AuthNavigator';
 
 const Stack = createNativeStackNavigator();
 
@@ -21,9 +21,9 @@ function App() {
                     headerShown: false,
                     gestureEnabled: true,
                 })}
-                initialRouteName={"AuthNavigator"}
+                initialRouteName={"Home"}
             >
-                <Stack.Screen name="AuthNavigator" component={AuthNavigator} />
+                {/* <Stack.Screen name="AuthNavigator" component={AuthNavigator} /> */}
                 <Stack.Screen name="Home" component={Home} />
                 <Stack.Screen name="EventDetails" component={EventDetails} />
                 <Stack.Screen name="FoodDetails" component={FoodDetails} />
