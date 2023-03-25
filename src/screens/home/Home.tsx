@@ -27,6 +27,9 @@ const Home = (props: any) => {
         }
     ])
 
+    const tabId = 0;
+    const author = -1;
+
     const onTableBtnPress = () => {
         setTableBtnPressed(!tableBtnPressed)
     }
@@ -51,8 +54,10 @@ const Home = (props: any) => {
             dataVisible={tableBtnPressed}
             onBarBtnPress={onBarBtnPress}
             navigation={props.navigation}
-            tabId={props.route.params.tabId}
-            author={props.route.params.author}
+            // tabId={props.route.params.tabId}
+            // author={props.route.params.author}
+            tabId={tabId}
+            author={author}
         />
     )
 
