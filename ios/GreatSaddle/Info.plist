@@ -80,5 +80,11 @@
 		<string>Zocial.ttf</string>
 		<string>Lato-Medium.ttf</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>GreatSaddle needs access of GPS to detect your current location and shows you the meals or events sorting by location distance</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>GreatSaddle needs access of GPS to detect your current location and shows you the meals or events sorting by location distance</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>GreatSaddle needs access of GPS to detect your current location and shows you the meals or events sorting by location distance</string>
 </dict>
 </plist>
