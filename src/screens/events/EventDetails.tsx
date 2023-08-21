@@ -191,7 +191,11 @@ const EventDetails = (props: any) => {
                     <Text style={Styles.eventDesc}>{event.description}</Text>
                     <View style={Styles.priceOuterCon}>
                         <View style={Styles.priceView}>
-                            <Text style={Styles.listIcon}>₦</Text>
+                            <Image
+                                source={Images.cash}
+                                resizeMode='contain'
+                                style={Styles.listIcon}
+                            />
                             <Text style={Styles.price}>{parseFloat(event.price) > 0 ? event.price : "free"}</Text>
                             <Text style={Styles.discount}>{event.discount}</Text>
                         </View>

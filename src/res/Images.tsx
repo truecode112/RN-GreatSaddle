@@ -37,5 +37,6 @@ const Images = {
     plusCirlce: require('../assets/images/plus_circle.png'),
     reservationInputVector: require('../assets/images/reservation_input_vector.png'),
     unknownImages: require('../assets/images/unknown.png'),
+    cash: require('../assets/images/cash.png')
 }
 export default Images
